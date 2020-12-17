@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESUME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">"
+        <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        .container{
+            width:1140px;
+            margin:30px auto auto auto;
+        }
+        .top{
+            background-color:grey;
+        }
+        .top img{
+            height:130px;
+            width:130px;
+            border-radius:50%;
+            top:30px;
+            margin-left:520px;
+            position:relative;
+        }
+        .myname{
+            margin-left:450px;
+            margin-right:450px;
+            height:50px;
+            border-radius:10px;
+           background-color:orange;
+        }
+        .info {
+            border-bottom: 1px solid black; 
+        }
+        .info_color{
+            color: grey;
+        }
+       .row{
+        padding-right:50px;
+        width:50%;
+         float: left;
+          font-size:20px;
+          border-right: 1px solid grey;
+           
+       } 
+       .column{
+        padding-top:10px;
+           padding-left:50px;
+           width:50%;
+           float:right;
+           color:black;
+           font-size:20px;
+               }
+       </style>
+        </head>
+        <body>
+            <script> 
+var div0 = document.createElement("div");
+var div1 = document.createElement("div");
+div1.setAttribute("class", "container");
+var div2 = document.createElement("div");
+div2.setAttribute("class", "top");
+var div3= document.createElement("img");
+div3.setAttribute("src", "myimg.jpg");
+div2.appendChild(div3);
+var div4 = document.createElement("h1");
+div4.setAttribute("class", "myname");
+div4.appendChild(document.createTextNode("   K.MOUNIKA "));
+div2.appendChild(div4);
+div1.appendChild(div2);
+div0.appendChild(div1);
+var div5 = document.createElement("div");
+div5.setAttribute("class", "info");
+var div6 = document.createElement("h4");
+div6.setAttribute("align", "center");
+div6.setAttribute("class", "info_color");
+div6.appendChild(document.createTextNode("K.Mounika, Vishakapatnam  530011 |530045|\"mounisri@gmail.com\""));
+div5.appendChild(div6);
+div0.appendChild(div5);
+var div7 = document.createElement("div");
+div7.setAttribute("class", "row");
+var div8 = document.createElement("h1");
+div8.setAttribute("style", "color:grey");
+div8.appendChild(document.createTextNode("Profile"));
+div7.appendChild(div8);
+var div9 = document.createElement("p");
+div9.setAttribute("class", "");
+div9.appendChild(document.createTextNode("Seeking a fresher job to associate myself with an organization\nthat supplements my knowledge and enables me to play a vital role\nin its growth through application of my creative, technicalr and academic skills."));
+div7.appendChild(div9);
+var div10 = document.createElement("p");
+div7.appendChild(div10);
+var div11 = document.createElement("h1");
+div11.setAttribute("style", "color:grey");
+div11.appendChild(document.createTextNode("Skills"));
+div7.appendChild(div11);
+var div12 = document.createElement("h3");
+div12.setAttribute("style", "text-align:center;");
+div12.appendChild(document.createTextNode("Technical Skills"));
+div7.appendChild(div12);
+var div13 = document.createElement("p");
+div13.appendChild(document.createTextNode(" JavaScript"));
+var div14 = document.createElement("br");
+div13.appendChild(div14);
+div13.appendChild(document.createTextNode("CSS"));
+var div15 = document.createElement("br");
+div13.appendChild(div15);
+div13.appendChild(document.createTextNode("HTML"));
+var div16 = document.createElement("br");
+div13.appendChild(div16);
+div13.appendChild(document.createTextNode("React"));
+var div17 = document.createElement("br");
+div13.appendChild(div17);
+div13.appendChild(document.createTextNode("Redux"));
+var div18 = document.createElement("br");
+div13.appendChild(div18);
+div13.appendChild(document.createTextNode("Mongo"));
+var div19 = document.createElement("br");
+div13.appendChild(div19);
+div13.appendChild(document.createTextNode("Deployment"));
+div7.appendChild(div13);
+var div20 = document.createElement("h3");
+div20.setAttribute("style", "text-align:center");
+div20.appendChild(document.createTextNode("Inter Personal Skills"));
+div7.appendChild(div20);
+var div21 = document.createElement("p");
+div21.appendChild(document.createTextNode("Good Team Player"));
+var div22 = document.createElement("br");
+div21.appendChild(div22);
+div21.appendChild(document.createTextNode("Adaptive Nature"));
+var div23 = document.createElement("br");
+div21.appendChild(div23);
+div21.appendChild(document.createTextNode("Effective Listening"));
+var div24 = document.createElement("br");
+div21.appendChild(div24);
+div21.appendChild(document.createTextNode("Problem solving"));
+div7.appendChild(div21);
+var div25 = document.createElement("h1");
+div25.setAttribute("style", "color:grey");
+div25.appendChild(document.createTextNode("Projects"));
+div7.appendChild(div25);
+var div26 = document.createElement("h3");
+div26.appendChild(document.createTextNode("Title: \"Analysis of Literacy Rate using Python\""));
+div7.appendChild(div26);
+var div27 = document.createElement("ul");
+var div28 = document.createElement("li");
+div28.appendChild(document.createTextNode("Technology used: Python, Jupyter Lab"));
+div27.appendChild(div28);
+var div29 = document.createElement("li");
+div29.appendChild(document.createTextNode("Description: Change in Literacy with respect to population is very less.\nIf we can Find dofferent Factors which Effect literacy rate in specific sate or district\nthere can be improvement."));
+div27.appendChild(div29);
+var div30 = document.createElement("li");
+div30.appendChild(document.createTextNode("Role: Team player"));
+div27.appendChild(div30);
+div7.appendChild(div27);
+div0.appendChild(div7);
+var div31 = document.createElement("div");
+div31.setAttribute("class", "column");
+var div32 = document.createElement("h1");
+div32.setAttribute("style", "color:grey");
+div32.appendChild(document.createTextNode("Personal Statement"));
+div31.appendChild(div32);
+var div33 = document.createElement("p");
+div33.appendChild(document.createTextNode("I have always tried to model my life on the basis of the following values,\nwhich have been imbided in me by my familyright from my childhood.\n"));
+div31.appendChild(div33);
+var div34 = document.createElement("ul");
+var div35 = document.createElement("li");
+div35.appendChild(document.createTextNode("I always put Sincere effors for any task given."));
+div34.appendChild(div35);
+var div36 = document.createElement("li");
+div36.appendChild(document.createTextNode("I am hard working and fast learner and always open to learn new Technology."));
+div34.appendChild(div36);
+var div37 = document.createElement("li");
+div37.appendChild(document.createTextNode("I maintain virtues of a clear conscience, high values and ethic."));
+div34.appendChild(div37);
+div31.appendChild(div34);
+var div38 = document.createElement("h1");
+div38.setAttribute("style", "color:grey");
+div38.appendChild(document.createTextNode("Education"));
+div31.appendChild(div38);
+var div39 = document.createElement("ul");
+var div40 = document.createElement("li");
+div40.appendChild(document.createTextNode("I have completed my Bachelor of Technology(BTech) in Vignan Institute of Information Technology with CGPA 7.2 "));
+div39.appendChild(div40);
+var div41 = document.createElement("li");
+div41.appendChild(document.createTextNode("Developed full-satck web application, \"Hotel Managment\" where it allows users to book there rooms in online."));
+div39.appendChild(div41);
+var div42 = document.createElement("li");
+div42.appendChild(document.createTextNode("Done a project on python ,\"Analysis of Literacy Rate using Python\" .Change in Literacy with respect to population is very less.\nIf we can Find dofferent Factors which Effect literacy rate in specific sate or district\nthere can be improvement"));
+div39.appendChild(div42);
+var div43 = document.createElement("li");
+div43.appendChild(document.createTextNode("I am open to learn new Technologies  so I have started to learn full stack development."));
+div39.appendChild(div43);
+var div44 = document.createElement("li");
+div44.appendChild(document.createTextNode("I felt coding is a game through which we can develop many things. I am a Self learner where I use to leran many things everyday. "));
+div39.appendChild(div44);
+var div45 = document.createElement("b");
+div45.appendChild(document.createTextNode("BTech,Information Technology"));
+div39.appendChild(div45);
+div39.appendChild(document.createTextNode("    \n03/2016 - 04/2020  \n"));
+div31.appendChild(div39);
+var div46 = document.createElement("h1");
+div46.setAttribute("style", "color:grey");
+div46.appendChild(document.createTextNode("Declaration"));
+div31.appendChild(div46);
+var div47 = document.createElement("p");
+div47.appendChild(document.createTextNode("I here by declare that the above mentioned information is correct up to my knowledge and I bear the responsibility for the correctness of the above mentioned particulars."));
+div31.appendChild(div47);
+div0.appendChild(div31);
+document.body.appendChild(div0);
+</script>
+</body>
+</html>
